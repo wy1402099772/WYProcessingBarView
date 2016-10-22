@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ProcessingBarView.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    ProcessingBarView *sub = [[ProcessingBarView alloc] initWithFrame:CGRectMake(0, 100, 300, 4)];
+    [self.view addSubview:sub];
 }
 
 
