@@ -20,6 +20,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     ProcessingBarView *sub = [[ProcessingBarView alloc] initWithFrame:CGRectMake(0, 100, 300, 4)];
+    sub.cornerRadius = 2;
     [self.view addSubview:sub];
 }
 
