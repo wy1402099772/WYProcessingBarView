@@ -15,8 +15,8 @@
 		93CD6FFB1DBB2FCA00362FC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93CD6FF91DBB2FCA00362FC6 /* LaunchScreen.storyboard */; };
 		93CD70061DBB2FCA00362FC6 /* WYProcessingBarViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CD70051DBB2FCA00362FC6 /* WYProcessingBarViewTests.m */; };
 		93CD70111DBB2FCA00362FC6 /* WYProcessingBarViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CD70101DBB2FCA00362FC6 /* WYProcessingBarViewUITests.m */; };
-		93CD70221DBB3DB100362FC6 /* ProcessingBarSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CD70211DBB3DB100362FC6 /* ProcessingBarSubView.m */; };
-		93CD70251DBB482400362FC6 /* ProcessingBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CD70241DBB482400362FC6 /* ProcessingBarView.m */; };
+		93F6A7C21DBC8C3E00E15197 /* ProcessingBarSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F6A7BF1DBC8C3E00E15197 /* ProcessingBarSubView.m */; };
+		93F6A7C31DBC8C3E00E15197 /* ProcessingBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F6A7C11DBC8C3E00E15197 /* ProcessingBarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +53,10 @@
 		93CD700C1DBB2FCA00362FC6 /* WYProcessingBarViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYProcessingBarViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93CD70101DBB2FCA00362FC6 /* WYProcessingBarViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYProcessingBarViewUITests.m; sourceTree = "<group>"; };
 		93CD70121DBB2FCA00362FC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93CD70201DBB3DB100362FC6 /* ProcessingBarSubView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcessingBarSubView.h; sourceTree = "<group>"; };
-		93CD70211DBB3DB100362FC6 /* ProcessingBarSubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProcessingBarSubView.m; sourceTree = "<group>"; };
-		93CD70231DBB482400362FC6 /* ProcessingBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcessingBarView.h; sourceTree = "<group>"; };
-		93CD70241DBB482400362FC6 /* ProcessingBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProcessingBarView.m; sourceTree = "<group>"; };
+		93F6A7BE1DBC8C3E00E15197 /* ProcessingBarSubView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcessingBarSubView.h; sourceTree = "<group>"; };
+		93F6A7BF1DBC8C3E00E15197 /* ProcessingBarSubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProcessingBarSubView.m; sourceTree = "<group>"; };
+		93F6A7C01DBC8C3E00E15197 /* ProcessingBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcessingBarView.h; sourceTree = "<group>"; };
+		93F6A7C11DBC8C3E00E15197 /* ProcessingBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProcessingBarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 		93CD6FDF1DBB2FCA00362FC6 = {
 			isa = PBXGroup;
 			children = (
-				93CD701F1DBB3D9500362FC6 /* ProcessingBarView */,
+				93F6A7BD1DBC8C3E00E15197 /* ProcessingBarView */,
 				93CD6FEA1DBB2FCA00362FC6 /* WYProcessingBarView */,
 				93CD70041DBB2FCA00362FC6 /* WYProcessingBarViewTests */,
 				93CD700F1DBB2FCA00362FC6 /* WYProcessingBarViewUITests */,
@@ -147,16 +147,15 @@
 			path = WYProcessingBarViewUITests;
 			sourceTree = "<group>";
 		};
-		93CD701F1DBB3D9500362FC6 /* ProcessingBarView */ = {
+		93F6A7BD1DBC8C3E00E15197 /* ProcessingBarView */ = {
 			isa = PBXGroup;
 			children = (
-				93CD70231DBB482400362FC6 /* ProcessingBarView.h */,
-				93CD70241DBB482400362FC6 /* ProcessingBarView.m */,
-				93CD70201DBB3DB100362FC6 /* ProcessingBarSubView.h */,
-				93CD70211DBB3DB100362FC6 /* ProcessingBarSubView.m */,
+				93F6A7BE1DBC8C3E00E15197 /* ProcessingBarSubView.h */,
+				93F6A7BF1DBC8C3E00E15197 /* ProcessingBarSubView.m */,
+				93F6A7C01DBC8C3E00E15197 /* ProcessingBarView.h */,
+				93F6A7C11DBC8C3E00E15197 /* ProcessingBarView.m */,
 			);
-			name = ProcessingBarView;
-			path = ../LDProgressView/ProcessingBarView;
+			path = ProcessingBarView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,8 +291,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93CD70221DBB3DB100362FC6 /* ProcessingBarSubView.m in Sources */,
-				93CD70251DBB482400362FC6 /* ProcessingBarView.m in Sources */,
+				93F6A7C21DBC8C3E00E15197 /* ProcessingBarSubView.m in Sources */,
+				93F6A7C31DBC8C3E00E15197 /* ProcessingBarView.m in Sources */,
 				93CD6FF31DBB2FCA00362FC6 /* ViewController.m in Sources */,
 				93CD6FF01DBB2FCA00362FC6 /* AppDelegate.m in Sources */,
 				93CD6FED1DBB2FCA00362FC6 /* main.m in Sources */,
@@ -528,6 +527,7 @@
 				93CD70171DBB2FCA00362FC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93CD70181DBB2FCA00362FC6 /* Build configuration list for PBXNativeTarget "WYProcessingBarViewTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +536,7 @@
 				93CD701A1DBB2FCA00362FC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93CD701B1DBB2FCA00362FC6 /* Build configuration list for PBXNativeTarget "WYProcessingBarViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +545,7 @@
 				93CD701D1DBB2FCA00362FC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
